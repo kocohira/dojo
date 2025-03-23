@@ -1,5 +1,5 @@
 [package]
-cairo-version = "2.9.2"
+cairo-version = "=2.9.2"
 edition = "2024_07"
 description = "The Dojo Core library for autonomous worlds."
 name = "dojo"
@@ -11,7 +11,7 @@ dojo_plugin = { path = "../lang" }
 #dojo_macros = { path = "../macros" }
 
 [dev-dependencies]
-cairo_test = "2.9.2"
+cairo_test = "=2.9.2"
 
 [lib]
 
